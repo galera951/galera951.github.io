@@ -51,7 +51,7 @@ header, section, aside, nav, footer {
 }
 
 header, footer {
-    background-image: url(_images/title-bg.jpg);
+    background-image: url(title-bg.jpg);
     background-position-y: 500px;
     width: auto;
 }
@@ -107,7 +107,7 @@ a {
 
 a[href*="http"] {
     padding-right: 19px;
-    background: url(_images/link.png) no-repeat 100% 0.3em;
+    background: url(link.png) no-repeat 100% 0.3em;
     background-size: 0.8em 0.8em;
 }
 
@@ -127,7 +127,7 @@ a:active {
 a[href*="mailto:"] {
     color: black;
     padding-right: 19px;
-    background: url(_images/email.png) no-repeat 100% 0.45em;
+    background: url(email.png) no-repeat 100% 0.45em;
     background-size: 0.7em 0.6em;
 }
 
