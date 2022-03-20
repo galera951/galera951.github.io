@@ -1,9 +1,14 @@
-@import url("fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
 
 /* General setup */
 
 * {
     box-sizing: border-box;
+    /*font-family: montserrat, sans-serif;*/
+    /*font-weight: normal;*/
+    font-family: 'Syne', sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
 }
 
 body {
@@ -48,7 +53,7 @@ header, section, aside, nav, footer {
 }
 
 h1, h2 {
-    font-family: hero, sans-serif;
+    font-family: 'Syne', sans-serif;
     font-weight: bold;
 }
 
