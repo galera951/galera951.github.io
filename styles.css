@@ -50,9 +50,8 @@ header, section, aside, nav, footer {
     padding: 20px;
 }
 
-/* header and footer */
 header, footer {
-    background-image: url(title-bg.jpg);
+    background-image: url(_images/title-bg.jpg);
     background-position-y: 500px;
     width: auto;
 }
@@ -63,9 +62,6 @@ header h1 {
     3px 3px 1px rgba(255, 255, 255, 0.5),
     4px 4px 1px rgba(255, 255, 255, 0.25),
     6px 6px 1px rgba(255, 255, 255, 0.1);
-                 /*2px 2px 20px #ffffff;*/
-                 /*0px 0px 3px black,*/
-                 /*0px 0px 4px black;*/
 }
 
 section {
@@ -103,13 +99,15 @@ section h2 + p {
     text-indent: 20px;
 }
 
+/* Links */
+
 a {
     outline: none;
 }
 
 a[href*="http"] {
     padding-right: 19px;
-    background: url(link.png) no-repeat 100% 0.3em;
+    background: url(_images/link.png) no-repeat 100% 0.3em;
     background-size: 0.8em 0.8em;
 }
 
@@ -129,9 +127,11 @@ a:active {
 a[href*="mailto:"] {
     color: black;
     padding-right: 19px;
-    background: url(email.png) no-repeat 100% 0.45em;
+    background: url(_images/email.png) no-repeat 100% 0.45em;
     background-size: 0.7em 0.6em;
 }
+
+/* Lists */
 
 ul, ol {
     margin: 1.6rem 0;
@@ -144,6 +144,8 @@ ul {
 ol {
     list-style-type: lower-latin;
 }
+
+/* Nav menu*/
 
 nav h2 {
     margin-left: 2rem;
@@ -188,6 +190,8 @@ nav li a:active {
 nav li a[href=""] {
     font-weight: bold;
 }
+
+/* Side menu */
 
 aside h2 {
     text-align: left;
